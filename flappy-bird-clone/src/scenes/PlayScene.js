@@ -20,15 +20,15 @@ class PlayScene extends BaseScene {
     this.difficulties = {
       'easy': {
         pipeVerticalDistanceRange: [150, 200],
-        pipHorizontalDistanceRange: [300, 350],
+        pipeHorizontalDistanceRange: [300, 350],
       },
       'normal': {
         pipeVerticalDistanceRange: [140, 190],
-        pipHorizontalDistanceRange: [280, 330],
+        pipeHorizontalDistanceRange: [280, 330],
       },
       'hard': {
         pipeVerticalDistanceRange: [120, 150],
-        pipHorizontalDistanceRange: [250, 310],
+        pipeHorizontalDistanceRange: [250, 310],
       }
     }
   }
@@ -160,7 +160,7 @@ class PlayScene extends BaseScene {
     const rightmostX = this.getRightMostPipe();
     const pipeVerticalDistance = Phaser.Math.Between(...difficulty.pipeVerticalDistanceRange);
     const pipeVerticalPosition = Phaser.Math.Between(0 + 20, this.config.height - 20 - pipeVerticalDistance);    
-    const pipeHorizontalDistance = Phaser.Math.Between(...difficulty.pipHorizontalDistanceRange);
+    const pipeHorizontalDistance = Phaser.Math.Between(...difficulty.pipeHorizontalDistanceRange);
   
     upperPipe.x = rightmostX + pipeHorizontalDistance;
     upperPipe.y = pipeVerticalPosition;
