@@ -7,13 +7,16 @@
   - Initialized Phaser Game and implemented coursework to understand the fundamentals of the Phaser framework
   - Learned about the physics in Phaser and how to recycle game objects
   - Developed navigation through multiple scenes for better user experience
+
+### Play it on itch.io
+* Flappy Bird Clone: https://shirokuma-cafe.itch.io/flappy-bird-clone
  
-### Getting Started
+### Or run it locally
 
 * Prerequisites
   - Node.js and npm installed.
 
-### Installation
+#### Installation
 
 1. **Clone the repository**:  
 ```sh
@@ -30,7 +33,7 @@ cd [any project directory]
 npm install
 ```
 
-### Run the Application
+#### Run the Application
 - Start the app in development mode:  
 ```sh
 npm run dev
