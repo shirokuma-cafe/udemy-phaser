@@ -12,7 +12,7 @@
   - Enabled different animations, textures and audio for specific player actions throughout the gameplay
   - Utilized types in TypeScript for better description of objects and functions, improving overall programming experience
 * Platformer Game
-  - Developed platformer game using the Phaser Framework, JavaScript amd the Tiled editor
+  - Developed platformer game using the Phaser Framework, JavaScript and the Tiled editor
   - Utilized Tiled to design maps and levels, create different types of attacks like melee and projectile attacks, and animate game objects like characters and enemies
   - Implemented Ray casting, allowing the detection of enemies and traps, and create a health system that triggers game over when health reaches zero
 
