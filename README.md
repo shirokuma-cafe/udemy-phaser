@@ -11,10 +11,15 @@
   - Constructed Dino Game from Google Chrome using the Phaser Framework and TypeScript
   - Enabled different animations, textures and audio for specific player actions throughout the gameplay
   - Utilized types in TypeScript for better description of objects and functions, improving overall programming experience
+* Platformer Game
+  - Developed platformer game using the Phaser Framework, JavaScript amd the Tiled editor
+  - Utilized Tiled to design maps and levels, create different types of attacks like melee and projectile attacks, and animate game objects like characters and enemies
+  - Implemented Ray casting, allowing the detection of enemies and traps, and create a health system that triggers game over when health reaches zero
 
 ### Play it on itch.io
 * Flappy Bird Clone: https://shirokuma-cafe.itch.io/flappy-bird-clone
 * Dino Game Clone: https://shirokuma-cafe.itch.io/dino-game-clone
+* Platformer Game: https://shirokuma-cafe.itch.io/platformer
  
 ### Or run it locally
 
